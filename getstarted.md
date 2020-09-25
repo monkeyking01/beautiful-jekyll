@@ -10,7 +10,7 @@ There are only three simple steps, ....
 
 Here is a 40-second video ....
 
-<img src="../img/install-steps.gif" style="width:100%;" alt="Installation steps" />
+<img src="assets/img/install-steps.gif" style="width:100%;" alt="Installation steps" />
 
 <div class="gs-section-01">
 
@@ -21,16 +21,7 @@ by clicking the Fork button on the top right corner in GitHub.
 
 </div>
 
-<div class="gs-section-01">
-
-### 1. Fork the Beautiful Jekyll repository 
-
-Fork the [repository](https://github.com/daattali/beautiful-jekyll) 
-by clicking the Fork button on the top right corner in GitHub.
-
-</div>
-
-<div class="gs-section-01">
+<div class="gs-section-02">
 
 ### 2. Rename the project to `<yourusername>.github.io`
 
@@ -38,7 +29,7 @@ Click on __*Settings*__ at the top (the cog icon) and on that page you'll have a
 
 </div>
 
-<div class="gs-section-01">
+<div class="gs-section-03">
 
 ### 3. Customize your website settings
 
@@ -55,6 +46,21 @@ Note that in the video above I only edited one setting in the `_config.yml` file
 
 .gs-section-01 p {
      font-size: 30px;
+     font-style: italic
 }
 
+.gs-section-02 h3 { 
+     color: blue }
+
+.gs-section-02 p {
+     font-size: 30px;
+     font-style: bold
+}
+
+.gs-section-03 h3 { 
+     color: green }
+
+.gs-section-03 p {
+     font-size: 30px;
+}
 </style>
